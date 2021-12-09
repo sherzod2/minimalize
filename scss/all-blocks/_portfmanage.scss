@@ -1,0 +1,209 @@
+.portfmanage{
+
+    &__manage:nth-child(even){
+       flex-direction: row-reverse;
+    }
+    &__manage{
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+    }
+    &__img{
+        margin-right: 125px;
+    }
+
+    &__imgg{
+        margin-left:125px ;
+    }
+    &__heading{
+        margin-top: 103px;
+        max-width: 350px;
+        min-height: 42px;
+        padding: 0;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        color: #33323D;
+    }
+
+    &__desc{
+        margin-top: 28px;
+        max-width:350px;
+        min-height: 150px;
+        padding: 0;
+        font-size: 16px;
+        line-height: 30px;
+        color: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    &__hr{
+        height: 1px;
+        background: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.15;
+    }
+
+    .button{
+        margin-bottom: 103px;
+    }
+}
+
+@media only screen and (max-width: 1142px){
+    .portfmanage{
+
+        &__img{
+            max-width:500px;
+            min-height: 450px;
+            margin-right:69px;
+        }
+
+        &__imgg{
+            max-width:500px;
+            min-height: 450px;
+            margin-left: 69px;
+        }
+    }
+}
+
+@media only screen and (max-width: 868px){
+    .portfmanage{
+        .button{
+            margin-bottom: 59px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .portfmanage{
+        &__container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__img{
+            max-width:339px;
+            min-height: 314px;
+        }
+        &__imgg{
+            max-width:339px;
+            min-height: 314px;
+        }
+
+        &__heading{
+            margin-top: 32px;
+             max-width: 281px;
+        }
+
+        &__desc{
+            margin-top: 29px;
+            max-width: 281px;
+            min-height: 180px;
+            font-size: 15px;
+        }
+    }
+}
+
+@media only screen and (max-width: 631px){
+    .portfmanage{
+        &__heading{
+            margin-top: 22px;
+            margin-bottom: 0;
+        }
+
+        &__desc{
+            margin-top: 19px;
+        }
+         &__img{
+             margin-right: 40px;
+         }
+        &__imgg{
+            margin-left: 40px;
+        }
+
+        &__btn{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 631px){
+    .portfmanage{
+        &__img{
+            margin-right: 20px;
+        }
+       &__imgg{
+           margin-left: 20px;
+       }
+
+       &__heading{
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+
+    &__desc{
+        margin-top: 9px;
+    }
+
+    }
+}
+
+@media only screen and (max-width: 631px){
+    .portfmanage{
+        &__img{
+            max-width: 320px;
+            margin-right: 10px;
+        }
+       &__imgg{
+           margin-left: 10px;
+           max-width: 320px;
+       }
+       .button{
+        margin-bottom: 39px;
+    }
+   }
+}
+
+@media only screen and (max-width: 561px){
+    .portfmanage{
+        &__manage{
+            align-items: center;
+            flex-direction: column;
+            padding: 0;
+        }
+
+        &__manage:nth-child(even){
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+         }
+
+         &__img{
+             margin: 0;
+             margin-bottom: 32px;
+         }
+
+         &__imgg{
+             margin-bottom: 32px;
+             margin-left: 0;
+         }
+
+         &__hr{
+             margin-bottom: 24px;
+         }
+
+         &__heading{
+             margin-bottom: 24px;
+         }
+
+         &__desc{
+             margin-bottom: 24px;
+         }
+    }
+    .button{
+        margin-bottom: 24px;
+    }
+}

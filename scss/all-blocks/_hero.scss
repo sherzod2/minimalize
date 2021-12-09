@@ -1,0 +1,68 @@
+.hero{
+    margin-bottom: 150px;
+    &__container{
+        position: relative;
+        background-image: url(../../img/hero-backround-img.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        max-width: 1111px;
+        min-height: 600px;
+    }
+
+    &__left-bottom{
+        padding-top: 56px;
+        max-width: 445px;
+        min-height: 357px;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__heading{
+        font-family: Ibarra Real Nova;
+        min-width: 390px;
+        min-height: 200px;
+        margin: 0;
+        margin-bottom: 53px;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.446429px;
+        color: #33323D;
+    }
+
+    &__button{
+        margin: 0;
+        padding: 0;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-left: 48px;
+        background-color: #203A4C;
+        background-image: url(../../img/button-img.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 48px 48px;
+        border: none;
+        width: 100%;
+        max-width: 200px;
+        min-height: 48px;
+        color: #fff;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 2px;
+        cursor: pointer;
+    }
+
+    &__button:hover{
+        background-image: url(../../img/btn-hover-img.png);
+        background-color: #5FB4A2;
+    }
+
+    &__button:active{
+        background-image: url(../../img/button-img-2.png);
+        background-color: #979797;
+    }
+}

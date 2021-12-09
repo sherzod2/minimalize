@@ -1,0 +1,22 @@
+.button{
+    padding: 17px 36px 17px 32px;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid #33323D;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #33323D;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.button:active{
+    background-color: #fff;
+    color: rgba(51, 50, 61, 0.2);
+    border: 1px solid rgba(51, 50, 61, 0.2);
+}

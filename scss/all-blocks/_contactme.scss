@@ -1,0 +1,133 @@
+.contactme{
+    padding-top: 150px;
+    &__hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__heading{
+        margin: 0;
+        padding: 0;
+        max-width: 356px;
+        min-height:84px;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        color: #33323D;
+    }
+
+    &__hr{
+     width: 534px;
+     min-height: 1px;
+     mix-blend-mode: normal;
+     color: #33323D;
+    }
+
+    &__button{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1142px){
+    .contactme{
+        &__hr{
+            max-width: 400px;
+        }
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .contactme{
+        &__hr{
+            max-width: 300px;
+        }
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .contactme{
+        &__hr{
+            max-width: 300px;
+        }
+    }
+}
+
+@media only screen and (max-width: 884px){
+    .contactme{
+        &__hr{
+            width: 200px;
+            margin-right: 52px;
+        }
+    }
+}
+@media only screen and (max-width: 824px){
+    .contactme{
+        &__hr{
+            width: 120px;
+            margin-right: 52px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .contactme{
+        &__container{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__hr{
+            width: 113px;
+        }
+        &__button{
+           margin: 0;
+           padding: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 694px){
+    .contactme{
+        &__hr{
+            width: 80px;
+            margin-right:8px;
+            padding: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 617px){
+    .contactme{
+        &__hr{
+          display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 561px){
+    .contactme{
+        &__hero{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        &__heading{
+            margin-bottom:40px;
+        }
+
+        &__hr{
+            display: none;
+        }
+
+        &__button{
+            margin-bottom: 80px;
+        }
+    }
+}
