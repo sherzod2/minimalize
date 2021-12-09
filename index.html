@@ -35,21 +35,30 @@
 
     <main>
         <section class="hero">
-            <div class="container hero__container">
-                <div class="hero__left-bottom">
-                    <h1 class="hero__heading">
-                        Hey, I’m Alex Spencer and I love building beautiful websites
-                    </h1>
-
-                    <button class="hero__button">
-                        ABOUT ME
-                    </button>
+            <div class="container">
+                <div class="hero__container">
+                    <div class="hero__left-bottom">
+                        <h1 class="hero__heading">
+                            Hey, I’m Alex Spencer and I love building beautiful websites
+                        </h1>
+    
+                        <button class="hero__button">
+                            ABOUT ME
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="about-me">
             <div class="container about-me__container">
-                <img src="./img/about-me-img.png" alt="" width="540" height="600">
+                <picture>
+                    <source
+                    media="(max-width: 612px)"
+                    srcset="./img/about-img.png">
+
+                    <img class="about-me__img" src="./img/about-me-img.png" alt="" width="540" height="600">
+                </picture>
+                
                 <div class="about-me__right">
                     <h2 class="about-me__heading">
                         About Me

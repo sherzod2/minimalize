@@ -5,7 +5,8 @@
         background-image: url(../../img/hero-backround-img.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: 1111px 600px;
+        width: 100%;
         max-width: 1111px;
         min-height: 600px;
     }
@@ -22,8 +23,8 @@
 
     &__heading{
         font-family: Ibarra Real Nova;
-        min-width: 390px;
-        min-height: 200px;
+        // min-width: 390px;
+        // min-height: 200px;
         margin: 0;
         margin-bottom: 53px;
         font-weight: bold;
@@ -65,4 +66,77 @@
         background-image: url(../../img/button-img-2.png);
         background-color: #979797;
     }
+}
+
+@media only screen and (max-width: 768px){
+    .hero{
+        margin-bottom: 96px;
+
+        &__container{
+            position: relative;
+            background-image: url(../../img/hero-tablet-img.png);
+            background-size: 688px 600px;
+            width: 100%;
+            min-height: 600px;
+        }
+    
+        &__left-bottom{
+            max-width: 514px;
+            min-height: 278px;
+        }
+
+        &__heading{
+            // max-width: 458px;
+            // min-height: 126px;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+        }
+    }
+}
+
+@media only screen and (max-width: 433px){
+    .hero{
+        margin-bottom: 96px;
+    
+        &__left-bottom{
+            max-width: 311px;
+            min-height: 272px;
+        }
+
+        &__heading{
+            padding-top: 24px;
+            margin-bottom: 32px;
+            // max-width: 311px;
+            // min-height: 168px;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .hero{
+        margin-bottom: 430px;
+        &__container{
+            position: relative;
+            background-image: url(../../img/hero-mobile-img.png);
+            background-size: 311px 271px;
+            width: 100%;
+            min-height: 271px;
+        }
+    
+        &__left-bottom{
+            padding-top: 24px;
+            min-height: 272px;
+            position: absolute;
+            left: 0;
+            bottom: -115%;
+        }
+
+        &__heading{
+            padding-bottom: 32px;
+        }
+    }    
 }
