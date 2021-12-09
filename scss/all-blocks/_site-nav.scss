@@ -1,0 +1,32 @@
+.site-nav{
+    white-space: nowrap;
+
+    &__list{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: 0 -21px;
+    }
+
+    &__link{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 0 21px;
+        color: #33323D;
+    }
+
+    &__link:hover{
+        color:#5FB4A2;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .site-nav{
+        display: none;
+    }
+}

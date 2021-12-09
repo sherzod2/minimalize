@@ -1,0 +1,38 @@
+.interested{
+    margin-bottom: 150px;
+    
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Ibarra Real Nova;
+        font-size: 40px;
+        line-height: 42px;
+        color: #33323D;
+    }
+
+    &__heading{
+        max-width: 350px;
+        min-height: 84px;
+        font-weight: bold;
+        letter-spacing: -0.357143px;
+        margin: 0;
+    }
+
+    &__span{
+        display: block;
+        width: 530px;
+        min-height: 1px;
+        background-color: black;
+        opacity: 0.15;
+    }
+
+    &__btn{
+        padding: 17px 35px 17px 32px;
+        font-family: Public Sans;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+    }
+}

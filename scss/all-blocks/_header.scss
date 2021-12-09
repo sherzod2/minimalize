@@ -1,0 +1,23 @@
+.header{
+    &__container{
+        padding-top: 64px;
+        padding-bottom: 54px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btn-3{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .header{
+        .btn-3{
+            display: block;
+            border: none;
+            background-color: white;
+        } 
+    }
+}

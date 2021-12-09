@@ -1,0 +1,41 @@
+.about-me{
+    margin-bottom: 150px;
+    
+    &__container{
+        display: flex;
+        align-items: center;
+    }
+
+    &__right{
+        margin-left: 125px;
+        box-sizing: border-box;
+        padding-top: 50px;
+        padding-bottom: 46px;
+        max-width: 350px;
+        min-height: 600px;
+        border-top: 2px solid rgba(51, 50, 61, 0.15);
+        border-bottom: 2px solid rgba(51, 50, 61, 0.15);
+    }
+
+    &__heading{
+        font-family: Ibarra Real Nova;
+        margin: 0;
+        margin-bottom: 28px;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        color: #33323D;
+    }
+
+    &__desc{
+        margin: 0;
+        margin-bottom: 24px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        color: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}
