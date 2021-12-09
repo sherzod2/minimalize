@@ -60,4 +60,9 @@
         background-image: url(../../img/btn-hover-img.png);
         background-color: #5FB4A2;
     }
+
+    &__button:active{
+        background-image: url(../../img/button-img-2.png);
+        background-color: #979797;
+    }
 }

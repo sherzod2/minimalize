@@ -481,6 +481,18 @@ img {
   cursor: pointer;
 }
 
+.button:hover {
+  background-color: #33323D;
+  color: white;
+  border: 1px solid transparent;
+}
+
+.button:active {
+  background-color: #fff;
+  color: rgba(51, 50, 61, 0.2);
+  border: 1px solid rgba(51, 50, 61, 0.2);
+}
+
 .header__container {
   padding-top: 64px;
   padding-bottom: 54px;
@@ -615,6 +627,11 @@ img {
   background-color: #5FB4A2;
 }
 
+.hero__button:active {
+  background-image: url(../../img/button-img-2.png);
+  background-color: #979797;
+}
+
 .about-me {
   margin-bottom: 150px;
 }
@@ -636,8 +653,8 @@ img {
   padding-bottom: 46px;
   max-width: 350px;
   min-height: 600px;
-  border-top: 2px solid rgba(51, 50, 61, 0.15);
-  border-bottom: 2px solid rgba(51, 50, 61, 0.15);
+  border-top: 1px solid rgba(51, 50, 61, 0.15);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
 }
 
 .about-me__heading {
