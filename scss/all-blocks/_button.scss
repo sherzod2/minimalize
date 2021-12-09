@@ -7,6 +7,55 @@
     line-height: 14px;
     letter-spacing: 2px;
     cursor: pointer;
+    &--manage{
+        width: 190px;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        color: #33323D;
+    }
+    &-back, &-next{
+        width: 50%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-family: 'Ibarra Real Nova';
+        font-size: 32px;
+        line-height: 22px;
+        text-decoration: none;
+        letter-spacing: -0.285714px;
+        color: #33323D;
+        border: 1px solid rgba(128, 128, 128, 0.215);
+        border-color: none;
+        &:hover{
+            background-color: rgba(189, 189, 189, 0.592);
+        }
+        &:active{
+            opacity: 0.6;
+        }
+    }
+    &-back{
+        margin-right: -0.5px;
+        padding-left: 20px;
+        border-left: none;
+        text-align: left;
+    }
+    &-next{
+        margin-left: -0.5px;
+        padding-right: 20px;
+        border-right: none;
+        text-align: right;
+    }
+    &-span{
+        font-size: 16px;
+        line-height: 30px;
+        color: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
 }
 
 .button:hover{

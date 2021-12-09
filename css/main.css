@@ -441,7 +441,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  font-family: "Public Sans", "Ibarra Real Nova";
+  font-family: "Public Sans";
   font-size: 16px;
   line-height: 1.5;
 }
@@ -479,6 +479,62 @@ img {
   line-height: 14px;
   letter-spacing: 2px;
   cursor: pointer;
+}
+
+.button--manage {
+  width: 190px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #33323D;
+}
+
+.button-back, .button-next {
+  width: 50%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: 'Ibarra Real Nova';
+  font-size: 32px;
+  line-height: 22px;
+  text-decoration: none;
+  letter-spacing: -0.285714px;
+  color: #33323D;
+  border: 1px solid rgba(128, 128, 128, 0.215);
+  border-color: none;
+}
+
+.button-back:hover, .button-next:hover {
+  background-color: rgba(189, 189, 189, 0.592);
+}
+
+.button-back:active, .button-next:active {
+  opacity: 0.6;
+}
+
+.button-back {
+  margin-right: -0.5px;
+  padding-left: 20px;
+  border-left: none;
+  text-align: left;
+}
+
+.button-next {
+  margin-left: -0.5px;
+  padding-right: 20px;
+  border-right: none;
+  text-align: right;
+}
+
+.button-span {
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }
 
 .button:hover {
@@ -826,5 +882,161 @@ img {
   .footer__item-2:not(:last-child) {
     margin-bottom: 32px;
   }
+}
+
+.manage___container {
+  width: 100%;
+  max-width: 1151px;
+  padding-bottom: 55px;
+}
+
+.statics__container {
+  width: 100%;
+  max-width: 1151px;
+  padding-top: 56px;
+  padding-bottom: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.statics__left {
+  width: 100%;
+  max-width: 350px;
+  padding-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-top: 1px solid RGBA(0, 0, 0, 0.16);
+  mix-blend-mode: normal;
+}
+
+.statics__left__header {
+  margin: 0;
+  margin-bottom: 29px;
+  padding: 0;
+  font-family: 'Ibarra Real Nova';
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+}
+
+.statics__left__desc {
+  margin: 0;
+  margin-bottom: 23px;
+  width: 100%;
+  max-width: 350px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.statics__left__link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5FB4A2;
+}
+
+.statics__right {
+  width: 100%;
+  max-width: 635px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.statics__right__header, .statics__right__header--bottom {
+  margin: 0;
+  margin-bottom: 28px;
+  padding: 0;
+  font-family: 'Ibarra Real Nova';
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.285714px;
+  color: #33323D;
+}
+
+.statics__right__desc {
+  width: 100%;
+  max-width: 635px;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  font-size: 15px;
+  line-height: 30px;
+  color: #33323D;
+  opacity: 0.8;
+}
+
+.statics__right__img-top {
+  margin-bottom: 32px;
+}
+
+.statics__bottom {
+  width: 100%;
+  position: relative;
+  max-width: 1151px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.statics__bottom::before {
+  width: 8px;
+  height: 16px;
+  position: absolute;
+  background-image: url(../../img/left-switcher.svg);
+  background-size: contain;
+  content: url("");
+}
+
+.statics__bottom::after {
+  width: 8px;
+  height: 16px;
+  position: absolute;
+  right: 22px;
+  background-image: url(../../img/right-switcher.svg);
+  background-size: contain;
+  content: url("");
+}
+
+.manage__link-top {
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.manage__link-btm {
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 0;
 }
 /*# sourceMappingURL=main.css.map */
