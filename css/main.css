@@ -631,6 +631,7 @@ img {
   background-color: #979797;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 768px) {
   .hero {
     margin-bottom: 96px;
@@ -691,6 +692,31 @@ img {
   .hero__heading {
     padding-bottom: 32px;
   }
+=======
+.port-hero__body {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #5267E0;
+  max-width: 1110px;
+  width: 100%;
+  height: 500px;
+}
+
+.port-hero__left {
+  position: absolute;
+  top: 82px;
+  left: 99px;
+  z-index: 1;
+  height: 418px;
+}
+
+.port-hero__right {
+  position: absolute;
+  bottom: 96px;
+  right: 100px;
+>>>>>>> 29415615eb8b9082508253f3bf74a5f407e69acd
 }
 
 .about-me {
