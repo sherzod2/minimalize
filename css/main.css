@@ -440,7 +440,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  font-family: "Public Sans", "Ibarra Real Nova";
+  font-family: 'Public Sans', 'Ibarra Real Nova' sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
