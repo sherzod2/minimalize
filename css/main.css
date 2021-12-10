@@ -631,7 +631,6 @@ img {
   background-color: #979797;
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 768px) {
   .hero {
     margin-bottom: 96px;
@@ -692,7 +691,8 @@ img {
   .hero__heading {
     padding-bottom: 32px;
   }
-=======
+}
+
 .port-hero__body {
   position: relative;
   display: -webkit-box;
@@ -716,7 +716,6 @@ img {
   position: absolute;
   bottom: 96px;
   right: 100px;
->>>>>>> 29415615eb8b9082508253f3bf74a5f407e69acd
 }
 
 .about-me {
