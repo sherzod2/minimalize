@@ -568,7 +568,7 @@ img {
 
 .hero__container {
   position: relative;
-  background-image: url(../../img/hero-backround-img.png);
+  background-image: url(../../images/hero-backround-img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1111px 600px;
@@ -605,7 +605,7 @@ img {
   padding-bottom: 17px;
   padding-left: 48px;
   background-color: #203A4C;
-  background-image: url(../../img/button-img.png);
+  background-image: url(../../images/button-img.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 48px 48px;
@@ -622,12 +622,12 @@ img {
 }
 
 .hero__button:hover {
-  background-image: url(../../img/btn-hover-img.png);
+  background-image: url(../../images/btn-hover-img.png);
   background-color: #5FB4A2;
 }
 
 .hero__button:active {
-  background-image: url(../../img/button-img-2.png);
+  background-image: url(../../images/button-img-2.png);
   background-color: #979797;
 }
 
@@ -637,7 +637,7 @@ img {
   }
   .hero__container {
     position: relative;
-    background-image: url(../../img/hero-tablet-img.png);
+    background-image: url(../../images/hero-tablet-img.png);
     background-size: 688px 600px;
     width: 100%;
     min-height: 600px;
@@ -676,7 +676,7 @@ img {
   }
   .hero__container {
     position: relative;
-    background-image: url(../../img/hero-mobile-img.png);
+    background-image: url(../../images/hero-mobile-img.png);
     background-size: 311px 271px;
     width: 100%;
     min-height: 271px;
